@@ -1,0 +1,50 @@
+.EntryPanel {
+  display: flex;
+  align-items: center;
+  &__main {
+    display: flex;
+    flex: 1 1 55%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+    padding: 20px 0;
+    padding-right: $space-unit;
+  }
+  &__head {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  &__sub {
+    flex: 1 1 10%;
+    margin-right: 20px;
+  }
+  &__thumb {
+    display: flex;
+    position: relative;
+    flex: 1 1 45%;
+    // padding-top: 40.5%;
+    overflow: hidden;
+    margin-right: $space-unit;
+  }
+  // img {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   width: auto;
+  //   height: auto;
+  //   max-width: 150%;
+  //   max-height: 150%;
+  //   min-width: 100%;
+  //   min-height: 100%;
+  // }
+  &__body {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  &__foot {
+    margin-top: 10px;
+    text-align: right;
+  }
+
+}
