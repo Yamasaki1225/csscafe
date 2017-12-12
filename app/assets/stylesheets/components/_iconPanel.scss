@@ -1,0 +1,9 @@
+.IconPanel {
+  //font-awesomeでアイコンを設定する
+  &__icon {
+    margin-bottom: $space-unit;
+    font-size: 26px;
+    padding: $sp-space-unit;
+    color: $color-link;
+  }
+}
