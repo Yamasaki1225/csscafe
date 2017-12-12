@@ -26,7 +26,7 @@
 
 /* 画像スライダー */
 // @param {string} id - ラッパー要素のid
-// @param {object} options - itemClassName, pointClassName, extraのオプション 
+// @param {object} options - itemClassName, pointClassName, extraのオプション
 function imageSlide (id, options) {
     var resizeTimer = null,
         extra = options.extra || 2,
@@ -38,10 +38,10 @@ function imageSlide (id, options) {
         flipsnap = null;
 
     if(!wrapper || !items || !points) return;
-    
+
     // 要素が2つ以下の場合、インジケーターを消して処理を停止
     if(items.length < 2) {
-        items[0].style.margin = '0 auto'; 
+        items[0].style.margin = '0 auto';
         Array.prototype.slice.call(points).map(function(point, i) {
             point.style.display = 'none';
         });
@@ -69,11 +69,11 @@ function imageSlide (id, options) {
                 // センタリングする
                 wrapper.style.position = 'relative';
                 wrapper.style.left = (window.innerWidth - items[0].clientWidth)/2+'px';
-                
+
                 // ポインタをセット
                 activePoint(0);
 
-                // カルーセルを起動 
+                // カルーセルを起動
                 flipsnap = Flipsnap(wrapper, {
                     distance: items[0].clientWidth,
                     maxPoint: maxPoint,
@@ -93,7 +93,7 @@ function imageSlide (id, options) {
                     }, false)
                 })
             }, 66);
-        }        
+        }
     }
 
 
@@ -162,3 +162,9 @@ function imageSlide (id, options) {
     }
 
 }
+
+$(function(){
+  $('#wrapper').on("click", function(){
+    console.log('aaaa');
+  });
+});
