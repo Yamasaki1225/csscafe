@@ -1,5 +1,6 @@
 @import "./base/variables";
 @import "./components/common/header";
+@import "./base/mixins";
 @import "./base/reset";
 @import "./components/common/menu";
 @import "./components/common/entryPanel";
@@ -12,4 +13,10 @@
 @import "./pages/index.scss";
 @import "./components/newsList";
 @import "./components/common/footer";
-@import "./fa/fontawesome";
+@import "./components/iconPanel";
+@import "./components/common/sns";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import "./utils/arrangements";
+
+
+

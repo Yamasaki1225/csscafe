@@ -1,9 +1,18 @@
 .IconPanel {
+  position: relative;
+  padding-top: 50px;
+  // text-align: center
   //font-awesomeでアイコンを設定する
-  &__icon {
-    margin-bottom: $space-unit;
-    font-size: 26px;
-    padding: $sp-space-unit;
-    color: $color-link;
-  }
+    &__icon {
+      position: absolute;
+      padding-bottom: -40px;
+      font-size: 26px;
+      left: 50%;
+      // text-align: center;
+      // color: $color-link;
+    }
+    &__head {
+      text-align: center;
+      margin-top: 35px;
+    }
 }

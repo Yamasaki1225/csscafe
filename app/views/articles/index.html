@@ -2,7 +2,7 @@
   <div id="wrapper">
     <header class="Header l-column">
       <div class="Header__head">
-        <h1>Site Name</h1>
+        <h1 class="logo">Site Name</h1>
       </div>
       <nav class="Header__body">
         <ul class="Menu">
@@ -27,11 +27,11 @@
           <a href="#"><img class="ImageSlide__image" src="./assets/slide3.jpg" alt="bout our tea" width="1180" height="490"></a>
         </li> -->
       </ul>
-      <div class="ImageSlide__sub">
+<!--       <div class="ImageSlide__sub">
         <span class="ImageSlide__dot js-slide-point">image1</span>
         <span class="ImageSlide__dot js-slide-point" isActive>image2</span>
         <span class="ImageSlide__dot js-slide-point">image3</span>
-      </div>
+      </div> -->
     </div>
     <section class="Section l-column">
       <div class="l-row">
@@ -85,26 +85,29 @@
 
       <div class="Section__item l-column">
         <div class="l-row">
-          <a class="IconPanel l-quaterColumn ">
-            <spam class="IconPanel__icon fa fa-tree"></spam>
+          <a class="IconPanel l-quaterColumn">
+            <span class="IconPanel__icon fa fa-tree"></span>
             <h3 class="IconPanel__head">こだわりの空間</h3>
             <p class="IconPanel__body">
               ランチからディナーまでいつでもリラックスして使えるくつろぎ空間。椅子や壁、細部にまでこだわっています。
             </p>
           </a>
           <a class="IconPanel l-quaterColumn ">
+            <span class="IconPanel__icon fa fa-coffee"></span>
             <h3 class="IconPanel__head">豆へのこだわり</h3>
             <p class="IconPanel__body">
               原産地、豆の種類、焙煎方法のこだわりを紹介します。
             </p>
           </a>
-          <a class="IconPanel l-quaterColumn ">
+          <a class="IconPanel l-quaterColumn">
+            <span class="IconPanel__icon fa fa-pencil"></span>
             <h3 class="IconPanel__head">コーヒースクール</h3>
             <p class="IconPanel__body">
               コーヒー豆の基礎知識から、美味しいコーヒーを淹れるコツをお教えします。
             </p>
           </a>
           <a class="IconPanel l-quaterColumn ">
+            <span class="IconPanel__icon fa fa-laptop"></span>
             <h3 class="IconPanel__head">BLOG</h3>
             <p class="IconPanel__body">
               お店の最新情報を、いち早くお届け。
@@ -116,38 +119,48 @@
       <div class="Section__head">
         <h2 class="sectionLabel">News</h2>
       </div>
-    <ol class="NewsList">
-      <li class="NewsList__item">
-        <time class="NewsList__head" datatime="2016-10-12">2016.10.12</time>
-        <span class="NewsList__body">「かぼちゃタルト」「ヘーゼルナッツラテ」「ストロベリーブラウニー」「ハニーソイラテ」「たっぷりチーズときのこのパニーニ」新発売。</span>
-      </li>
-      <li class="NewsList__item">
-        <time class="NewsList__head" datatime="2016-09-01">2016.9.1</time>
-        <span class="NewsList__body">営業時間に関するお知らせ</span>
-      </li>
-      <li class="NewsList__item">
-        <time class="NewsList__head" datatime="2016-08-20">2016.08.20</time>
-        <span class="NewsList__body">鎌倉ニューオープン！！</span>
-      </li>
-      <li class="NewsList__item">
-        <time class="NewsList__head" datatime="2016-08-10">2016.08.10</time>
-        <span class="NewsList__body">夏限定。マンゴースムージー発売</span>
-      </li>
-      <li class="NewsList__item">
-        <time class="NewsList__head" datatime="2016-04-02">2016.4.2</time>
-        <span class="NewsList__body">【期間限定】さくら抹茶ラテ販売開始</span>
-      </li>
+      <ol class="NewsList">
+        <li class="NewsList__item">
+          <time class="NewsList__head" datatime="2016-10-12">2016.10.12</time>
+          <span class="NewsList__body">「かぼちゃタルト」「ヘーゼルナッツラテ」「ストロベリーブラウニー」「ハニーソイラテ」「たっぷりチーズときのこのパニーニ」新発売。</span>
+        </li>
+        <li class="NewsList__item">
+          <time class="NewsList__head" datatime="2016-09-01">2016.9.1</time>
+          <span class="NewsList__body">営業時間に関するお知らせ</span>
+        </li>
+        <li class="NewsList__item">
+          <time class="NewsList__head" datatime="2016-08-20">2016.08.20</time>
+          <span class="NewsList__body">鎌倉ニューオープン！！</span>
+        </li>
+        <li class="NewsList__item">
+          <time class="NewsList__head" datatime="2016-08-10">2016.08.10</time>
+          <span class="NewsList__body">夏限定。マンゴースムージー発売</span>
+        </li>
+        <li class="NewsList__item">
+          <time class="NewsList__head" datatime="2016-04-02">2016.4.2</time>
+          <span class="NewsList__body">【期間限定】さくら抹茶ラテ販売開始</span>
+        </li>
+      </ol>
     </section>
+    <div class="l-column u-mt60px u-mb100px">
+      <div class="l-row">
+        <a href="#" class="l-halfColumn">
+          <img src="/assets/top_banner_1.jpg" class="l-fitImg" alt="Dummy banner">
+        </a>
+        <a href="#" class="l-halfColumn">
+          <img src="/assets/top_banner_2.jpg" class="l-fitImg" alt="Dummy banner">
+        </a>
+
     <footer class="Footer">
       <div class="l-row l-column">
         <div class="Footer__head">
           <a href="./" class="logo">Site Name</a>
           <ul class="Menu--sub">
-            <li><a class="Menu__item" href="#">Services</a></li>
-            <li><a class="Menu__item" href="#">Work</a></li>
-            <li><a class="Menu__item" href="#">About us</a></li>
-            <li><a class="Menu__item" href="#">Blog</a></li>
-            <li><a class="Menu__item" href="#">Contact</a></li>
+            <li class="Menu__item"><a class="Menu__link" href="#">Services</a></li>
+            <li class="Menu__item"><a class="Menu__link" href="#">Work</a></li>
+            <li class="Menu__item"><a class="Menu__link" href="#">About us</a></li>
+            <li class="Menu__item"><a class="Menu__link" href="#">Blog</a></li>
+            <li class="Menu__item"><a class="Menu__link" href="#">Contact</a></li>
           </ul>
        </div>
        <div class="Footer__body">
@@ -155,14 +168,14 @@
          <p><a href="#">Legal Notice</a></p>
          <p><a href="#">Privacy policy</a></p>
        </div>
-        <ul class="Footer__foot">
-          <li><a href="fa fa-facebook-official">Facebook</a></li>
-          <li><a href="#">Youtube</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">LinkeIn</a></li>
-          <li><a href="#">Flickr</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Yelp</a></li>
+        <ul class="Footer__foot SNS">
+          <li class="SNS__item"><a class="fa fa-facebook-official" href="#"><span class="SNS__text">Facebook</span></a></li>
+          <li class="SNS__item"><a class="fa fa-youtube-square" href="#"><span class="SNS__text">Youtube</span></a></li>
+          <li class="SNS__item"><a class="fa fa-twitter-square" href="#"><span class="SNS__text">Twitter</span></a></li>
+          <li class="SNS__item"><a class="fa fa-linkedin-square" href="#"><span class="SNS__text">LinkeIn</span></a></li>
+          <li class="SNS__item"><a class="fa fa-flickr" href="#"><span class="SNS__text">Flickr</span></a></li>
+          <li class="SNS__item"><a class="fa fa-instagram" href="#"><span class="SNS__text">Instagram</span></a></li>
+          <li class="SNS__item"><a class="fa fa-yelp" href="#"><span class="SNS__text">Yelp</span></a></li>
         </ul>
     </footer>
   </div>
