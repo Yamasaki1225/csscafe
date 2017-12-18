@@ -17,14 +17,20 @@
   &__sub {
     flex: 1 1 10%;
     margin-right: 20px;
+    .EntryPanel--vertical & {
+      margin-right: 0;
+
+    }
   }
   &__thumb {
-    display: flex;
-    position: relative;
-    flex: 1 1 45%;
+    color: red;
+    // display: flex;
+    // position: relative;
+    flex: 1 1 50%;
     // padding-top: 40.5%;
     overflow: hidden;
     margin-right: $space-unit;
+    padding-right: -40px;
   }
   // img {
   //   position: absolute;
@@ -45,6 +51,9 @@
   &__foot {
     margin-top: 10px;
     text-align: right;
+  }
+  &--vertical {
+    display: block;
   }
 
 }
