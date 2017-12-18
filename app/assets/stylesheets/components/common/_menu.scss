@@ -1,12 +1,14 @@
 .Menu {
   display: flex;
   justify-content: space-around;
+  @include menu-font;
   &__item {
     display: block;
     padding: 10px 15px;
     text-transform: uppercase;
+    text-decoration: none;
   }
   &--sub {
-    flex-direction: column;
+    color: white;
   }
 }

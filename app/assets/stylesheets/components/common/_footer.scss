@@ -1,4 +1,5 @@
 .Footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -9,6 +10,7 @@
   color: $color-link;
   &__head {
     flex: 2 1 50%;
+    margin-right: -50px;
   }
   &__head,
   &__body {

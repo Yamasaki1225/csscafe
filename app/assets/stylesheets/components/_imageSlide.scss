@@ -36,5 +36,11 @@
     &:last-child {
       margin-right: 0;
     }
+    @include mq-sp {
+      width: 10px;
+      height: 10px;
+      margin-right: 10px;
+
+    }
   }
 }
