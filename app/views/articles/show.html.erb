@@ -2,11 +2,13 @@
   <div id="wrapper">
     <header class="Header l-column">
       <div class="Header__head">
-        <h1 class="logo">Site Name</h1>
+        <h1 class="logo">
+          <a href="root_path">Site Name</a>
+        </h1>
       </div>
       <nav class="Header__body">
         <ul class="Menu">
-          <li><a class="Menu__item" href="#">Servise</a></li>
+          <li><a class="Menu__item" href="article_path">zServise</a></li>
           <li><a class="Menu__item" href="#">Work</a></li>
           <li><a class="Menu__item" href="#">About us</a></li>
           <li><a class="Menu__item" href="#">Blog</a></li>
@@ -18,7 +20,7 @@
     <div class="ImageSlide Section">
       <ul id="Slide" class="ImageSlide__main">
         <li class="ImageSlide__item js-slide-item">
-          <a href="#"><img class="ImageSlide__image" src="./assets/slide1.jpg" alt="bout our tea" width="1180" height="490"></a>
+          <a href="#"><img class="ImageSlide__image" src="/assets/slide2.jpg" alt="表示できないよ〜" width="1180" height="490"></a>
         </li>
  <!--        <li class="ImageSlide__item js-slide-item">
           <a href="#"><img class="ImageSlide__image" src="./assets/slide2.jpg" alt="bout our tea" width="1180" height="490"></a>
@@ -34,8 +36,50 @@
       </div> -->
     </div>
     <section class="Section l-column">
+      <div class="Section__head">
+        <h2 class="sectionLabel">Title</h2>
+      </div>
       <div class="l-row">
-        <div class="EntryPanel l-halfColumn">
+        <secction class="EntryPanel EntryPanel--vertical l-halfColumn">
+          <div class="EntryPanel__sub">
+            <img class="EntryPanel__thumb" src="/assets/cp_entry1.jpg" alt="表示されないな〜" width="250" height="220">
+          </div>
+          <div class="EntryPanel__main">
+            <h3 class="EntryPanel__head">1日のはじまりに</h3>
+            <div class="Entrypanel__body">
+              大切なあの方にありがとうを届けたい。<br>心も体も温まる素敵なギフト。<br>プレゼントキャンペーン実施中。
+            </div>
+            <div class="EntryPanel__foot"><a href="#" class="button">READ MORE</a></div>
+          </div>
+        </secction>
+        <secction class="EntryPanel EntryPanel--vertical l-halfColumn">
+          <div class="EntryPanel__sub">
+            <img class="EntryPanel__thumb" src="/assets/cp_entry2.jpg" alt="表示されないな〜" width="250" height="220">
+          </div>
+          <div class="EntryPanel__main">
+            <h3 class="EntryPanel__head">自家製グラノーラ</h3>
+            <div class="Entrypanel__body">
+              大切なあの方にありがとうを届けたい。<br>心も体も温まる素敵なギフト。<br>プレゼントキャンペーン実施中。
+            </div>
+            <div class="EntryPanel__foot"><a href="#" class="button">READ MORE</a></div>
+          </div>
+        </secction>
+        <secction class=" EntryPanel--vertical l-halfColumn">
+          <div class="EntryPanel__sub">
+            <img class="EntryPanel__thumb" src="/assets/cp_entry3.jpg" alt="表示されないな〜" width="250" height="220">
+          </div>
+          <div class="EntryPanel__main">
+            <h3 class="EntryPanel__head">フルーツの恵みであたたまる</h3>
+            <div class="Entrypanel__body">
+              大切なあの方にありがとうを届けたい。<br>心も体も温まる素敵なギフト。<br>プレゼントキャンペーン実施中。
+            </div>
+            <div class="EntryPanel__foot"><a href="#" class="button">READ MORE</a></div>
+          </div>
+        </secction>
+      </div>
+    </section>
+
+        <!-- <div class="EntryPanel l-halfColumn">
           <div class="EntryPanel__sub">
             <img class="EntryPanel__thumb" src="/assets/entry1.jpg" alt="表示されないな〜" width="250" height="220">
           </div>
@@ -49,7 +93,7 @@
         </div>
         <div class="EntryPanel l-halfColumn">
           <div class="EntryPanel__sub">
-            <img class="EntryPanel__thumb" src="./assets/entry2.jpg" alt="表示されないね〜" width="250" height="220">
+            <img class="EntryPanel__thumb" src="/assets/entry2.jpg" alt="表示されないね〜" width="250" height="220">
           </div>
           <div class="EntryPanel__main">
             <h3 class="EntryPanel__head">あの人気店コラボメニュー</h3>
@@ -59,11 +103,14 @@
             <div class="EntryPanel__foot"><a href="#" class="button">READ MORE</a></div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <section class="Section">
-      <h2 class="sectionLabel l-column">Content</h2>
+      <div class="Section__items Campaign__sweets">
+      </div>
+    </section>
+    <!--   <h2 class="sectionLabel l-column">Content</h2>
       <div class="l-row">
         <div class="l-halfTitle IndexPage__drinkMenu">
           <a href="#" class="OverlayPanel">
@@ -81,40 +128,34 @@
             </p>
           </a>
         </div>
-      </div>
+      </div> -->
+    </section>
 
       <div class="Section__item l-column">
         <div class="l-row">
           <a class="IconPanel l-quaterColumn">
-            <span class="IconPanel__icon fa fa-tree"></span>
-            <h3 class="IconPanel__head">こだわりの空間</h3>
+            <span class="IconPanel__icon fa fa-heart"></span>
+            <h3 class="IconPanel__head">魔法のくちどけ</h3>
             <p class="IconPanel__body">
-              ランチからディナーまでいつでもリラックスして使えるくつろぎ空間。椅子や壁、細部にまでこだわっています。
+               SPECIAL NUTS CHOCOLATEは最上級のカカオ豆を使用して作っております。<br>製法にあった配合で作り出すSWEETSはまさに絶品。魔法の口溶けをご体験してみてください。
             </p>
           </a>
           <a class="IconPanel l-quaterColumn ">
             <span class="IconPanel__icon fa fa-coffee"></span>
-            <h3 class="IconPanel__head">豆へのこだわり</h3>
+            <h3 class="IconPanel__head">選び抜かれた素材</h3>
             <p class="IconPanel__body">
-              原産地、豆の種類、焙煎方法のこだわりを紹介します。
+              素材は世界各地から選び抜かれた素材のみを使用しています。じっくり味わって、素材の違いを感じてください。
             </p>
           </a>
           <a class="IconPanel l-quaterColumn">
             <span class="IconPanel__icon fa fa-pencil"></span>
-            <h3 class="IconPanel__head">コーヒースクール</h3>
+            <h3 class="IconPanel__head">プレゼントにも</h3>
             <p class="IconPanel__body">
-              コーヒー豆の基礎知識から、美味しいコーヒーを淹れるコツをお教えします。
+              SPECIAL SWEETSはテイクアウトも可能です。<br>
+              お家でのティータイムや、友達へのプレゼントにもぴったりです。オリジナルマグカップとコーヒー、SPECIALvSWEETSのセットもあります。
             </p>
-          </a>
-          <a class="IconPanel l-quaterColumn ">
-            <span class="IconPanel__icon fa fa-laptop"></span>
-            <h3 class="IconPanel__head">BLOG</h3>
-            <p class="IconPanel__body">
-              お店の最新情報を、いち早くお届け。
-            </p>
-          </a>
-      </div>
-    </section>
+        </div>
+
     <section class="section l-column">
       <div class="Section__head">
         <h2 class="sectionLabel">News</h2>
@@ -150,33 +191,5 @@
         <a href="#" class="l-halfColumn">
           <img src="/assets/top_banner_2.jpg" class="l-fitImg" alt="Dummy banner">
         </a>
-
-    <footer class="Footer">
-      <div class="l-row l-column">
-        <div class="Footer__head">
-          <a href="./" class="logo">Site Name</a>
-          <ul class="Menu--sub">
-            <li class="Menu__item"><a class="Menu__link" href="#">Services</a></li>
-            <li class="Menu__item"><a class="Menu__link" href="#">Work</a></li>
-            <li class="Menu__item"><a class="Menu__link" href="#">About us</a></li>
-            <li class="Menu__item"><a class="Menu__link" href="#">Blog</a></li>
-            <li class="Menu__item"><a class="Menu__link" href="#">Contact</a></li>
-          </ul>
-       </div>
-       <div class="Footer__body">
-         <p>Copyright information goes down here.</p>
-         <p><a href="#">Legal Notice</a></p>
-         <p><a href="#">Privacy policy</a></p>
-       </div>
-        <ul class="Footer__foot SNS">
-          <li class="SNS__item"><a class="fa fa-facebook-official" href="#"><span class="SNS__text">Facebook</span></a></li>
-          <li class="SNS__item"><a class="fa fa-youtube-square" href="#"><span class="SNS__text">Youtube</span></a></li>
-          <li class="SNS__item"><a class="fa fa-twitter-square" href="#"><span class="SNS__text">Twitter</span></a></li>
-          <li class="SNS__item"><a class="fa fa-linkedin-square" href="#"><span class="SNS__text">LinkeIn</span></a></li>
-          <li class="SNS__item"><a class="fa fa-flickr" href="#"><span class="SNS__text">Flickr</span></a></li>
-          <li class="SNS__item"><a class="fa fa-instagram" href="#"><span class="SNS__text">Instagram</span></a></li>
-          <li class="SNS__item"><a class="fa fa-yelp" href="#"><span class="SNS__text">Yelp</span></a></li>
-        </ul>
-    </footer>
   </div>
 </body>
